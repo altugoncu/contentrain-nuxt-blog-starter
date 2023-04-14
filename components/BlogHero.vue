@@ -1,5 +1,5 @@
 <template>
-  <div v-if="heroData" class="py-24 text-center">
+  <div v-if="heroData" class="py-4 text-center">
     <h3 class="text-yellow-600 text-base font-bold mb-2">
       {{ heroData.subtitle }}
     </h3>
@@ -10,9 +10,11 @@
       {{ heroData.description }}
     </p>
   </div>
+  <Players />
 </template>
 
 <script setup>
+import Players from './components/Players.vue'
 const { data } = await useAsyncData("hero", () =>
   queryContent("contentrain", "hero").findOne()
 );

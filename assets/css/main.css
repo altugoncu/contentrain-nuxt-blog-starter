@@ -9,4 +9,13 @@ html {
 }
 body {
   @apply bg-gray-100;
+  background-color: black;
+}
+
+.custom-text {
+  color: #B55510;
+  font-size: 24px;
+  font-family: fantasy;
+  align-items: center;
+  align-self: center;
 }
