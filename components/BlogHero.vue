@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import Players from './components/Players.vue'
+import Players from '~/components/Players.vue'
 const { data } = await useAsyncData("hero", () =>
   queryContent("contentrain", "hero").findOne()
 );
