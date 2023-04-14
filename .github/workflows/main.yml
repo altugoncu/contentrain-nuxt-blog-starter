@@ -45,3 +45,4 @@ jobs:
       - name: Deploy to s3
         run: |
           aws s3 sync .output/public s3://altug
+          aws cloudfront create-invalidation --distribution-id E33OL6AYIZQEHM --paths "/*"
