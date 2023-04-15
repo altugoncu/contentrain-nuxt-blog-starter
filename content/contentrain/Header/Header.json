@@ -8,14 +8,20 @@
         {
           "createdAt": 1649454877694,
           "ID": "33a1689b-2d79-4ea5-be4c-0f98ad6e1b7c",
-          "url": "https://discord.com/invite/4db2PjWYtG",
+          "url": "https://www.instagram.com/altug_oncu/?hl=en",
           "iconName": "ri-instagram-line"
         },
         {
           "createdAt": 1649454898177,
           "ID": "6b81a843-4800-4348-9ed4-171cd5704563",
-          "url": "https://www.linkedin.com/company/contentrain",
+          "url": "https://twitter.com/altug_oncu?lang=en",
           "iconName": "ri-twitter-line"
+        },
+        {
+          "createdAt": 1649454898177,
+          "ID": "6b81a843-4800-4348-9ed4-171cd5704563",
+          "url": "https://open.spotify.com/user/u2aley69a1k5hj43dx6s6unhx",
+          "iconName": "ri-spotify-line"
         }
       ]
     }

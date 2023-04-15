@@ -1,20 +1,20 @@
 <template>
-  <div v-if="heroData" class="py-4 text-center">
+  <Spotify />
+  <div v-if="heroData" class="whitespace-pre-wrap break-words font-inherit py-4 text-center hero-bg">
     <h3 class="text-yellow-600 text-base font-bold mb-2">
       {{ heroData.subtitle }}
     </h3>
-    <h1 class="text-black font-semibold text-2xl mb-2">
-      {{ heroData.title }}
-    </h1>
-    <p class="text-gray-700 text-base max-w-lg mx-auto">
+    <p class="text-gray-700 text-base max-w-xl mx-auto text-white">
       {{ heroData.description }}
     </p>
   </div>
-  <Players />
+  <Youtube />
 </template>
 
 <script setup>
-import Players from '~/components/Players.vue'
+import Spotify from '~~/components/Spotify.vue'
+import Youtube from '~~/components/Youtube.vue'
+import altugImage from '../public/altug-ar-3-2.png'
 const { data } = await useAsyncData("hero", () =>
   queryContent("contentrain", "hero").findOne()
 );

@@ -12,11 +12,11 @@
     </div>
     <div class="w-full justify-center social-links text-2xl flex items-center">
       <nuxt-link v-if="$route.name !== 'index'" to="/" class="flex justify-center items-center p-1 ml-2">
-        <i class="ri-home-4-fill text-blue-800 ml-1 white"></i>
+        <i style="color:white;" class="ri-home-4-fill text-blue-800 ml-1"></i>
       </nuxt-link>
       <a v-for="(link, i) in headerData.socialIcons" :key="i" :href="link.url" target="_blank" rel="noopener noreferrer"
         class="flex justify-center items-center p-1 ml-2">
-        <i :class="link.iconName" class="text-gray-800 ml-1 white"></i></a>
+        <i style="color:white;" :class="link.iconName" class="text-gray-800 ml-1"></i></a>
     </div>
   </header>
 </template>
