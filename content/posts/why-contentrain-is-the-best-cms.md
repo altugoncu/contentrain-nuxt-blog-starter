@@ -1,5 +1,5 @@
 ---
-updatedAt: 1649356687698
+updatedAt: 1681548066775
 createdAt: 1649356548494
 ID: "36de95b9-5632-4879-b996-50aff9ce9857"
 title: "Why Contentrain is the best CMS"
@@ -16,7 +16,7 @@ author:
   displayName: "Bayhan BAYRAMOĞLU"
   avatarImage: "public/1649356756618_1634587076141.jpeg"
   role: "development"
-coverImage: "public/1649457190422_thought-catalog-505eectW54k-unsplash.jpg"
+coverImage: "public/1681548063942_Screenshot 2023-04-15 at 11.40.30.png"
 
 ---
 # Lustrantem corpus
