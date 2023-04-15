@@ -62,6 +62,7 @@
 </template>
 
 <script>
+import Spotify from '~~/components/Spotify.vue'
 export default {
   name: "PostCard",
   props: {
